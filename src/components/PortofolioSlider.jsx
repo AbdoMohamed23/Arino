@@ -5,21 +5,22 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import { Link } from 'react-scroll';
 
+
 const PortofolioSlider = () => {
 
     const data = [
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_3.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_1.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_0.jpg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_2.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_3.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_1.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_0.jpg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_2.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_3.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_1.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_0.jpg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "/src/image/portfolio_2.jpeg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_3.jpeg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_1.jpeg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_0.jpg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_2.jpeg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_3.jpeg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_1.jpeg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_0.jpg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_2.jpeg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_3.jpeg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_1.jpeg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_0.jpg"},
+      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_2.jpeg"},
     ]
 
     var settings = {

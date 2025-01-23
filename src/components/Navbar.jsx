@@ -13,10 +13,10 @@ const Navbar = () => {
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 100) {
-                setIsStacky(true);
+                setIsSticky(true);
             }
             else {
-                setIsStacky(false);
+                setIsSticky(false);
             }
         };
 
@@ -60,15 +60,13 @@ const Navbar = () => {
                     </div>
 
 
-                    <div className='md:hidden'>
-                        <button
+                        <div
                             onClick={toggleMenu}
-                            className='focus:outline-none text-white transition-all duration-300 ease-in'>
+                            className='focus:outline-none md:hidden text-white transition-all duration-300 ease-in'>
                             {
                                 isMenuOpen ? (<FaXmark className='h-6 w-6' />) : (<FaBarsStaggered className='h-6 w-6' />)
                             }
-                        </button>
-                    </div>
+                        </div>
                 </div>
 
                 <div className={`space-y-4 px-4 mt-14 py-7 bg-dark transition-all duration-300 ease-in ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
