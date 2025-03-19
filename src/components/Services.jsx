@@ -17,7 +17,7 @@ const Services = () => {
 
                 <div className='lg:w-1/3 space-y-5'>
                     <h4 className='text-gray-200 font-semibold text-2xl'>What Can We Do</h4>
-                    <h2 className='text-5xl font-bold mb-5 leading-snug'>Services we can help you with</h2>
+                    <h2 className='text-5xl font-bold mb-5 leading-snug'><span className='text-orange'>Services</span> we can help you with</h2>
                     <a href="" className='inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in'><span>See All Services</span> <BsArrowRight /></a>
                 </div>
 

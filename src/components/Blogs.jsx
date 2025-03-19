@@ -4,10 +4,10 @@ import BlogCard from './BlogCard';
 
 const Blogs = () => {
     return (
-        <div className='text-white lg:px-24 px-4'>
+        <div className='text-orange lg:px-24 px-4'>
 
             <div>
-                <h2 className='text-4xl font-bold text-center leading-snug lg:w-4/6 mx-auto pb-20'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis perferendis minima ullam magnam accusamus, error consequuntur exercitationem neque iste consequatur nam placeat tempora praesentium delectus provident alias minus amet. Aliquam.</h2>
+                <h2 className='text-4xl font-bold text-center leading-snug lg:w-4/6 mx-auto pb-20'>For display only</h2>
 
 
 

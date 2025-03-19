@@ -4,23 +4,19 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import { Link } from 'react-scroll';
-
+import img3 from '../image/portfolio_3.jpeg';
+import img1 from '../image/portfolio_1.jpeg';
+import img0 from '../image/portfolio_0.jpg';
+import img2 from '../image/portfolio_2.jpeg';
 
 const PortofolioSlider = () => {
 
     const data = [
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_3.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_1.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_0.jpg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_2.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_3.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_1.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_0.jpg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_2.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_3.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_1.jpeg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_0.jpg"},
-      {title: "Colorful Art Work", subtitle: "See Details", image: "../src/image/portfolio_2.jpeg"},
+      {image: img3},
+      {image: img1},
+      {image: img0},
+      {image: img2},
+      
     ]
 
     var settings = {
@@ -62,15 +58,9 @@ const PortofolioSlider = () => {
           
           {
             data.map((item, index) =><Link key={index} to='/' className='relative cs-portfolio cs-bg' >
-              <div className='absolute top-0 left-0 bg-black/50 w-full h-full rounded-2xl'></div>
+              <div className='absolute top-0 left-0 w-full h-full rounded-2xl'></div>
               <div>
-                <img src={item.image} alt="" />
-              </div>
-              <div className='absolute top-0 left-0 hover:bg-dark/80 w-full h-full flex items-center justify-center rounded-2xl cursor-pointer'>
-                <div className='text-center'>
-                    <h2 className='text-2xl font-semibold mb-1'>{item.title}</h2>
-                    <p className='cs-portfolio-subtitle'>{item.subtitle}</p>
-                </div>
+                <img src={item.image} alt="image" />
               </div>
             </Link>)
           }

@@ -12,7 +12,7 @@ const Hero = () => {
 
 
             <div className='px-4 lg:px-24'>
-                <h1 className='md:w-2/3 lg:text-8xl sm:text-6xl text-5xl mb-5 text-white font-bold lg:leading-snug sm:leading-snug leading-snug'>Creativity In Our Blood Line</h1>
+                <h1 className='md:w-2/3 lg:text-8xl sm:text-6xl text-5xl mb-5 text-white font-bold lg:leading-snug sm:leading-snug leading-snug'><span className='text-orange'>Creativity</span> In Our Blood Line</h1>
 
 
                 <div className='text-white text-lg flex md:flex-row flex-col-reverse md:items-center items-start justify-between gap-8'>
